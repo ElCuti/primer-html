@@ -1,3 +1,10 @@
 body{
-    background-color: antiquewhite;
+    background-color: #233D4D;
+    color: #FE7F2D;
+}
+h3{
+    color: #DA4167;
+}
+h3.hastag{
+    color: #E8F0FF
 }
