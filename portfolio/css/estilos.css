@@ -1,10 +1,60 @@
-body{
+/*CSS general de elementos*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
     background-color: #233D4D;
     color: #FE7F2D;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    /*CSS IDs y Clase*/
 }
-h3{
+
+p {
+    text-align: justify;
+}
+
+
+h2 {
+    font-weight: 200;
+    font-size: 36px;
+    line-height: 36px;
+}
+
+h3 {
     color: #DA4167;
+    font-size: 18px;
+    font-weight: 300;
 }
-h3.hastag{
+
+cite {
+    font-weight: 300;
+}
+
+h3.hastag {
     color: #E8F0FF
+}
+
+#experiencia {
+    background-color: #fe7f2d;
+    color: #233D4D;
+}
+
+h3 #experiencia {
+    color: white;
+}
+
+#portfolio {
+    border-top: 1px solid #E8F0FF;
+}
+
+.seccion {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
