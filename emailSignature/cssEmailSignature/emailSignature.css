@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+    color: #181B22;
+    font-family: "PT Sans";
+}
+
+#completo {
+    margin-left: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+    border-left: 3px dashed #181B22;
+}
+
+.container {
+    background: #7CC6FE;
+    background: linear-gradient(260deg, rgba(124, 198, 254, 1) 0%, rgba(93, 253, 203, 1) 100%);
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+#logosRedes {
+    padding-top: 5px;
+}
+
+#Info h2 {
+    font-size: 20px;
+    color: #9a85db;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+
+a,
+a:visited,
+a:hover,
+a:active {
+    color: inherit;
+    /* hereda el color del padre (textos H3) */
+    text-decoration: none;
+    /* quita subrayado */
+    background: none;
+    /* elimina posibles fondos */
+    border: none;
+    /* por si hubiera bordes por defecto */
+    outline: none;
+    /* quita outline al hacer focus */
+}
