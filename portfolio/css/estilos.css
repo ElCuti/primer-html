@@ -52,7 +52,7 @@ h3.hastag {
 }
 
 h3 #experiencia {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 #portfolio {
@@ -64,4 +64,10 @@ h3 #experiencia {
     padding-right: 100px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+#redes{
+    list-style: none;
+    font-size: 24px;
+    padding-top: 20px;
 }
