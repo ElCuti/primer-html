@@ -71,3 +71,37 @@ h3 #experiencia {
     font-size: 24px;
     padding-top: 20px;
 }
+
+#logoSpoty{
+    float:left;
+    color: #fe7f2d;
+}
+
+#logoInsta{
+    float:left;
+    margin-left: 10px;
+    color: #fe7f2d;
+}
+#logoLink{
+    float:left;
+    margin-left: 10px;
+    color: #fe7f2d;
+}
+#logoTwitter{
+    float:left;
+    margin-left: 10px;
+    color: #fe7f2d;
+}
+
+#logoSpoty:hover{
+    color: white;
+}
+#logoInsta:hover{
+    color: white;
+}
+#logoLink:hover{
+    color: white;
+}
+#logoTwitter:hover{
+    color: white;
+}
