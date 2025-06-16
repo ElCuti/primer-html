@@ -14,11 +14,12 @@ body {
     /*CSS IDs y Clase*/
 }
 
-#inicio{
+#inicio {
     background-image: url("../imagenes/foto2.png");
     background-repeat: no-repeat;
     min-height: 280px;
     background-size: cover;
+    padding-top: 80px ;
 }
 
 p {
@@ -38,7 +39,7 @@ h3 {
     font-weight: 300;
 }
 
-cite {
+em {
     font-weight: 300;
 }
 
@@ -66,42 +67,56 @@ h3 #experiencia {
     padding-bottom: 10px;
 }
 
-#redes{
+#redes {
     list-style: none;
     font-size: 24px;
     padding-top: 20px;
 }
 
-#logoSpoty{
-    float:left;
+#logoLink,
+#logoTwitter,
+#logoInsta,
+#logoSpoty {
+    float: left;
+    margin-right: 15px;
     color: #fe7f2d;
+    transition: all 0.2s;
 }
 
-#logoInsta{
-    float:left;
-    margin-left: 10px;
-    color: #fe7f2d;
-}
-#logoLink{
-    float:left;
-    margin-left: 10px;
-    color: #fe7f2d;
-}
-#logoTwitter{
-    float:left;
-    margin-left: 10px;
-    color: #fe7f2d;
+#logoSpoty:hover,
+#logoInsta:hover,
+#logoLink:hover,
+#logoTwitter:hover {
+    color: white;
+    transition: all 0.3;
 }
 
-#logoSpoty:hover{
-    color: white;
+#FotoLogo{
+    height: 50px;
+    padding-top: 0px;
 }
-#logoInsta:hover{
-    color: white;
+
+#navegador{
+    list-style: none;
+    display: inline-block;
+    
 }
-#logoLink:hover{
-    color: white;
+
+#navegador li{
+    float: left;
+    padding: 5px;
+    padding-top: 12px;
 }
-#logoTwitter:hover{
-    color: white;
+
+#navegador li #logo{
+    padding-top: 0px;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: #222;
+    border-bottom: 1px solid white;
+    padding-top: 10px;
+    text-align: center;
 }
