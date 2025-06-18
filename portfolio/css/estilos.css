@@ -1,5 +1,4 @@
 /*CSS general de elementos*/
-
 * {
     margin: 0px;
     padding: 0px;
@@ -30,6 +29,11 @@ body {
     padding: 5px;
 }
 
+#Contactar {
+    background-color: #ffc900;
+}
+
+
 #inicio {
     background-image: url("../imagenes/foto2.png");
     background-repeat: no-repeat;
@@ -41,7 +45,6 @@ body {
 p {
     text-align: justify;
 }
-
 
 h2 {
     font-weight: 200;
@@ -148,18 +151,17 @@ a:hover {
 }
 
 /*Grid Sobremi*/
-#Sobremi{
+#Sobremi {
     display: grid;
     grid-template-columns: 250px 1fr;
     grid-auto-flow: column;
 }
 
-#Sobremi h2{
+#Sobremi h2 {
     margin-bottom: 15px;
 }
 
 /*Card Portfolio*/
-
 .filaportfolio {
     justify-content: center;
     gap: 40px 100px;
@@ -206,8 +208,6 @@ a:hover {
     border: 1px solid #ffc900;
 }
 
-
-
 button {
     border-radius: 10px;
 }
@@ -216,6 +216,81 @@ button {
     margin-top: 5px;
     padding: 5px;
 }
+
 .card .masinfo button {
     float: right;
+}
+
+/*Card experiencia*/
+.cardexp {
+    background-color: #222;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 15px;
+}
+
+.cardexp h2 {
+    margin-bottom: 5px;
+}
+
+.cardexp h3 {
+    margin-bottom: 20px;
+}
+
+.cardexp p {
+    margin-bottom: 20px;
+}
+
+.cardexp ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.cardexpli {
+    height: 30px;
+}
+
+.gridexp {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-gap: 10px;
+    align-content: space-around;
+    justify-content: space-between;
+}
+
+/*Apartado contactar*/
+
+#Contactar h2 {
+    color: #191919;
+}
+
+/*Formulario*/
+.itemForm {
+    display: grid;
+    grid-template-columns: 150px 350px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.itemForm label {
+    font-weight: 700;
+}
+
+.itemForm input,
+.itemForm textarea {
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+input[type="submit"] {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    grid-column: 2/3;
+    justify-self: end;
+}
+
+.final{
+    text-align: center;
 }
