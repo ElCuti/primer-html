@@ -178,6 +178,10 @@ a:hover {
     border-radius: 10px;
 }
 
+video, iframe{
+    border-radius: 10px;
+}
+
 .card img {
     border-radius: 10px;
 }
@@ -291,6 +295,6 @@ input[type="submit"] {
     justify-self: end;
 }
 
-.final{
+.final {
     text-align: center;
 }
